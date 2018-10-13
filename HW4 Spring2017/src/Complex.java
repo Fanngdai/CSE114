@@ -1,6 +1,6 @@
 /*
  * Fanng Dai
- * 109684495
+ * sbuid
  * CSE114
  * Homework #4
  * Part 3: Complex.java class
@@ -57,7 +57,7 @@ public class Complex {
 	public String toString(double a, double b){
 		if (b==0)
 			return a + "";
-		else 
+		else
 			return "(" + a + " + " + b + "i)";
 	}
 }

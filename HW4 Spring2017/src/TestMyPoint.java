@@ -1,10 +1,10 @@
 /*
  * Fanng Dai
- * 109684495
+ * sbuid
  * CSE114
  * Homework #4
  * Part 2: TestMyPoint.java class
- * 
+ *
  * Class tests the methods of MyPoint class.
  */
 public class TestMyPoint {
@@ -20,7 +20,7 @@ public class TestMyPoint {
 		System.out.println(point2.getY());
 		System.out.println(point3.getX());
 		System.out.println(point3.getY());
-		
+
 		System.out.println("Distance");
 		System.out.println(point1.distance(point2));	// 0
 		System.out.println(point2.distance(point3));	// 32.0975

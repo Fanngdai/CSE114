@@ -1,13 +1,13 @@
 /*
  * Fanng Dai
- * 109684495
+ * sbuid
  * CSE114
  * Feeding the Animals
  * Homework #2
  * Part 2
- * 
- * The price of dog food cost 3 times as much as those for a cats. 
- * Given a budget and the amount of dogs and cats, We will calculate 
+ *
+ * The price of dog food cost 3 times as much as those for a cats.
+ * Given a budget and the amount of dogs and cats, We will calculate
  * the amount we have for each cat.
  */
 

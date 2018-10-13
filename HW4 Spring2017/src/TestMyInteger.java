@@ -1,13 +1,13 @@
 /*
  * Fanng Dai
- * 109684495
+ * sbuid
  * CSE114
  * Homework #4
  * Part 1: TestMyInteger.java class
- * 
+ *
  * Class tests the methods of MyInteger class.
- * 
- * Static belongs to the class 
+ *
+ * Static belongs to the class
  */
 public class TestMyInteger {
 	public static void main(String[] args){
@@ -42,56 +42,56 @@ public class TestMyInteger {
 			System.out.println(myInt.getValue() + " is prime.");
 		else
 			System.out.println(myInt.getValue() + " is not prime.");
-		
-		
-		
+
+
+
 		if(MyInteger.isEven(2047))
 			System.out.println("2047 is even. uhh wrong...");
-		else 
+		else
 			System.out.println("2047 is odd.");
 
 		if(MyInteger.isEven(2048))
 			System.out.println("2048 is even.");
-		else 
+		else
 			System.out.println("2048 is odd. uhh wrong...");
 
 		if(MyInteger.isOdd(2047))
 			System.out.println("2047 is odd.");
-		else 
+		else
 			System.out.println("2047 is even. uhh wrong...");
 
 		if(MyInteger.isOdd(2048))
 			System.out.println("2048 is odd. uhh wrong...");
-		else 
+		else
 			System.out.println("2048 is even.");
 
 		if(MyInteger.isPrime(2047))
 			System.out.println("2047 is prime. uhh wrong...");
-		else 
+		else
 			System.out.println("2047 is not prime.");
 
 		if(MyInteger.isPrime(127))
 			System.out.println("127 is prime.");
-		else 
+		else
 			System.out.println("127 is not prime. uhh wrong...");
-		
-		
-		
+
+
+
 		if(myInt.equals(2047))
 			System.out.println(myInt.getValue() + " is the same as 2047.");
-		else 
+		else
 			System.out.println(myInt.getValue() + " is not the same as 2047.");
 
 		if(myInt.equals(2048))
 			System.out.println(myInt.getValue() + " is the same as 2048.");
-		else 
+		else
 			System.out.println(myInt.getValue() + " is not the same as 2048.");
-		
+
 		if(myInt.equals(myInt))
 			System.out.println(myInt.getValue() + " is the same as 2047.");
-		else 
+		else
 			System.out.println(myInt.getValue() + " is not the same as 2047.");
-		
+
 		int x = MyInteger.parseInt("12345");
 		System.out.print(x);
 	}

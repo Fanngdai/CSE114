@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 /*
  * Fanng Dai
- * 109684495
+ * sbuid
  * CSE114 - Lab12
  * Homework #5
  */
@@ -46,7 +46,7 @@ public class CookingRecipe{
 		list.add(ingredient2);
 		(ingredient2).setQuantity(quantity);
 	}
-	// if the recipe already includes the ingredient specified by the parameter, 
+	// if the recipe already includes the ingredient specified by the parameter,
 	// then just update the quantity, otherwise add a new recipe ingredient.
 	public RecipeIngredient getRecipeIngredient(Ingredient ingredient){
 		for(int i=0; i<list.size(); i++){
@@ -62,7 +62,7 @@ public class CookingRecipe{
 		}
 		return null;
 	}
-	// return the RecipeIngredient object corresponding to the ingredient object 
+	// return the RecipeIngredient object corresponding to the ingredient object
 	// paramater, or return null if the ingredient is not part of the recipe.
 	public RecipeIngredient removeRecipeIngredient(Ingredient ingredient){
 		for(int i=0; i<list.size(); i++){
@@ -80,8 +80,8 @@ public class CookingRecipe{
 		}
 		return null;
 	}
-	// remove the given ingredient from the recipe. If the ingredient is part of 
-	// the recipe return it, else return null. 
+	// remove the given ingredient from the recipe. If the ingredient is part of
+	// the recipe return it, else return null.
 	public double calculateCalories(){
 		double caloriesTotal = 0;
 		for(int i=0; i<list.size(); i++){
@@ -107,7 +107,7 @@ public class CookingRecipe{
 				return false;
 			}
 		}
-		
+
 		// Don't really need. But just in case, checks if the two CookingRecipe have identical Recipe Ingredients.
 		this.list.equals(check);
 		return true;
@@ -123,7 +123,7 @@ public class CookingRecipe{
 		return output;
 	}
 	// returns the recipe name and ingredients as a String.
-	// The specification of this class intentionally does not specify the internal 
-	// structure of the class (name, ingredients), so you can design it in any way 
+	// The specification of this class intentionally does not specify the internal
+	// structure of the class (name, ingredients), so you can design it in any way
 	// you want, as long as you provide the functionalities required above.
 }

@@ -1,10 +1,10 @@
 /*
  * Fanng Dai
- * 109684495
+ * sbuid
  * CSE114 L12
  * Homework #1
  * Part 3
- * 
+ *
  * This program will print a marvel superheros name and a list of their super powers. It will
  * be followed by printing when they first appeared and why I chose him to print for this program.
  */

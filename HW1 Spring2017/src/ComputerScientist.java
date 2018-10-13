@@ -1,11 +1,11 @@
 /*
  * Fanng Dai
- * 109684495
+ * sbuid
  * CSE114 L12
  * Homework #1
  * Part 2
- * 
- * This program will print a computer scientists name which has the same letter initial last name 
+ *
+ * This program will print a computer scientists name which has the same letter initial last name
  * as mine(D). It will be followed in the next line, with his birthmonth, date and year. If he has
  * died, this information will be printed in the next line. If not, it will print "N/A." It will
  * be followed in the next line with a short biography about him.

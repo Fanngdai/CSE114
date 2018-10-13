@@ -1,10 +1,10 @@
 /*
  * Fanng Dai
- * 109684495
+ * sbuid
  * CSE114
  * Homework #3
  * Part 2: Length 3 substring match
- * 
+ *
  * Given 2 strings, program will let the user know how many times the
  * two string contain the same length 3 substring.
  */

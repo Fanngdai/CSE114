@@ -1,10 +1,10 @@
 /*
  * Fanng Dai
- * 109684495
+ * sbuid
  * CSE114
  * Homework #3
  * Part 5: Run-Length Encoding
- * 
+ *
  * If there is more than 3 consecutive letters which are the same, we will
  * encode it so that there is a flag char in front, one of those letters
  * followed by the amount of letters that are consecutive.
@@ -18,7 +18,7 @@ public class RunLengthEncoding {
 
 		for(int i=0; i < message.length(); i++)
 			//for(int i=0; i< message.length(); i++)
-		{	
+		{
 			// letters don't match
 			if(message.charAt(start)!=message.charAt(i))
 			{
@@ -45,7 +45,7 @@ public class RunLengthEncoding {
 				start = i;
 			}
 			// end of string
-			else if(i==message.length()-1) 
+			else if(i==message.length()-1)
 			{
 				// length is less than or equal to 3
 				if(i-start+1<=3)
@@ -63,7 +63,7 @@ public class RunLengthEncoding {
 					answer += (i-start+1);
 				}
 			}
-		} 
+		}
 		return answer;
 	}
 	/*
@@ -81,7 +81,7 @@ public class RunLengthEncoding {
 		System.out.println(encode("A", '*'));
 		// *A4
 		System.out.println(encode("AAAA", '*'));
-		// 
+		//
 		System.out.println(encode("", '*'));
 		// AAB
 		System.out.println(encode("AAB", '*'));

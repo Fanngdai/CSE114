@@ -1,11 +1,11 @@
 /*
  * Fanng Dai
- * 109684495
+ * sbuid
  * CSE114
  * Basal Metabolic Rate
  * Homework #2
  * Part 4
- * 
+ *
  * Given the mass in pounds, height in inches, age, and the gender
  * of a person, this program will figure out the BMR of that
  * individual by the formula
@@ -14,7 +14,7 @@
  * 				h is equal to the individuals height in centimeter,
  * 				a is equal to the individuals age, and
  * 				s is 5 for male and -161 for female.
- * 
+ *
  * The bmr method will convert the given pounds and inches to kilogram
  * and centimeter. Then, using the formula above, it will figure out the
  * bmr of that individual.
@@ -29,7 +29,7 @@ public class BMR {
 		kilogram = pounds*0.453592;
 		// Convert the individuals height from inches to centimeter
 		centimeter = inches*2.54;
-		
+
 		if(gender == 'F' || gender == 'f')
 		{
 			return (10*kilogram+6.25*centimeter-5*age-161);
@@ -38,8 +38,8 @@ public class BMR {
 	}
 	/*
 	public static void main(String[] args)
-	{	
-		// prints 1367.4196 
+	{
+		// prints 1367.4196
 		System.out.println(bmr(130, 66, 55, 'm') );
 		// prints 1201.4196
 		System.out.print(bmr(130, 66, 55, 'f') );

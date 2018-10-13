@@ -1,6 +1,6 @@
 /*
  * Fanng Dai
- * 109684495
+ * sbuid
  * CSE114 - Lab12
  * Homework #5
  */
@@ -61,7 +61,7 @@ public class TestRecipeBook {
 
 		System.out.println("Checks Cooking Recipe class");
 		CookingRecipe cookingRecipe1 = new CookingRecipe("RecipeIngredient");
-		CookingRecipe cookingRecipe2 = new CookingRecipe("recipeIngredientOil");	
+		CookingRecipe cookingRecipe2 = new CookingRecipe("recipeIngredientOil");
 		CookingRecipe cookingRecipe3 = new CookingRecipe("recipeIngredientOil");
 		// Same quantity
 		cookingRecipe1.addOrUpdateRecipeIngredient(flour, 100);
@@ -89,7 +89,7 @@ public class TestRecipeBook {
 		else{
 			System.out.println("COOKING RECIPE 1 IS NOT EQUAL TO COOKING RECIPE 2 (THEY ARE NOT)");
 		}
-		
+
 		if(cookingRecipe3.equals(cookingRecipe2)){
 			System.out.println("COOKING RECIPE 3 IS EQUAL TO COOKING RECIPE 2 (THEY ARE)");
 		}
@@ -143,16 +143,16 @@ public class TestRecipeBook {
 		// removes flour from book1
 		book1.removeRecipe("name of cooking recipe 1");
 		System.out.println(book1);
-		
+
 		RecipeBook book3 = book2;
-		
+
 		if(book3.equals(book2)){
 			System.out.println("Book2 and Book3 are the same. (Correct)");
 		}
 		else{
 			System.out.println("Book2 and Book3 are not the same. (Wrong)");
 		}
-		
+
 		if(book1.equals(book2)){
 			System.out.println("Book1 and Book2 are the same. (Wrong)");
 		}

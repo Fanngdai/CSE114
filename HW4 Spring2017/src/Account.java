@@ -1,6 +1,6 @@
 /*
  * Fanng Dai
- * 109684495
+ * sbuid
  * CSE114
  * Homework #4
  * Part 5: Account.java class
@@ -12,18 +12,18 @@ public class Account {
 	private double annualInterestRate;
 	// stores the date when the account was created
 	private java.util.Date dateCreated;
-	
+
 	public Account(){
 		this.id = 0;
 		this.balance = 1000;
 		this.annualInterestRate = 4.50;
 	}
-	
+
 	public Account(int id, double balance){
 		this.id = id;
 		this.balance = balance;
 	}
-	
+
 	// Accessor
 	public int getId(){
 		return id;
@@ -34,14 +34,14 @@ public class Account {
 	public double getAnnualInterestRate(){
 		return annualInterestRate;
 	}
-	// returns the monthly interest rate 
+	// returns the monthly interest rate
 	public double getMonthlyInterestRate(){
 		return annualInterestRate/12;
 	}
 	public java.util.Date getDateCreated(){
 		return dateCreated;
 	}
-	
+
 	// Mutator
 	public void setId(int num){
 		id = num;
@@ -52,7 +52,7 @@ public class Account {
 	public void setAnnualInterestRate(double num){
 		annualInterestRate = num;
 	}
-	
+
 	// withdraws a specified amount from the account
 	public void withDraw(double amount){
 		if(amount>balance){
@@ -61,7 +61,7 @@ public class Account {
 		else
 			balance -= amount;
 	}
-	
+
 	public void deposit(double amount){
 		balance += amount;
 	}

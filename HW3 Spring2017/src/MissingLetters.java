@@ -1,10 +1,10 @@
 /*
  * Fanng Dai
- * 109684495
+ * sbuid
  * CSE114
  * Homework #3
  * Part 3: Missing Letters
- * 
+ *
  * The method in this program is given a string. The program will search through the
  * entire string and look for the lowest letter and highest letter. It will print
  * all the letters inbetween except for the letters that appeared in the string.

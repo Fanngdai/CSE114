@@ -1,15 +1,15 @@
 /*
  * Fanng Dai
- * 109684495
+ * sbuid
  * CSE114
  * Homework #3
  * Part 4: Base Conversion
- * 
+ *
  * This program contains a method which is has passed parameters of an string and 2 integers. The string is
- * the converting number which we will deal with. The first integer is the base of the given string. The 
+ * the converting number which we will deal with. The first integer is the base of the given string. The
  * second base is the base number we will convert to. Method will return the original passed in value in
  * the form of the second integer/base given.
- * 
+ *
  * A = 65 in ascii table
  * A = 10 in bases numbers
  * 65-10=55
@@ -34,7 +34,7 @@ public class BaseToBase {
 
 		// Convert to decimal. Start from right go left.
 		for(int i=n.length()-1; i>=0; i--)
-		{	
+		{
 			// Is a digit
 			if(n.charAt(i)<'9')
 			{
@@ -81,7 +81,7 @@ public class BaseToBase {
 
 		return answer;
 	}
-	
+
 	public static void main(String[] args)
 	{
 		// Prints 3511

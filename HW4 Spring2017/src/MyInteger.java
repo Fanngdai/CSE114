@@ -1,11 +1,11 @@
 /*
  * Fanng Dai
- * 109684495
+ * sbuid
  * CSE114
  * Homework #4
  * Part 1: MyInteger.java class
  * Test class called TestMyInteger
- * 
+ *
  * Class contains methods which will determine if a given int, type MyInteger value,
  * or a given MyInteger object is even, odd and prime. It will determine if value, the
  * integer declared in MyInteger class is equal to the given integer. It will also
@@ -29,16 +29,16 @@ public class MyInteger {
 
 	// Method checks if value is even
 	public boolean isEven(){
-		if(value%2!=0) 
+		if(value%2!=0)
 			return false;
-		else 
+		else
 			return true;
 	}
 	// Method checks if by value is odd
 	public boolean isOdd(){
-		if(value%2==0) 
+		if(value%2==0)
 			return false;
-		else 
+		else
 			return true;
 	}
 	// Method checks if passed by value is prime
@@ -54,16 +54,16 @@ public class MyInteger {
 
 	// Method checks if passed by integer is even
 	public static boolean isEven(int num){
-		if(num%2!=0) 
+		if(num%2!=0)
 			return false;
-		else 
+		else
 			return true;
 	}
 	// Method checks if passed by integer is odd
 	public static boolean isOdd(int num){
-		if(num%2==0) 
+		if(num%2==0)
 			return false;
-		else 
+		else
 			return true;
 	}
 	// Method checks if passed by integer is prime
@@ -85,9 +85,9 @@ public class MyInteger {
 	}
 	// Method checks if passed by value is odd
 	public static boolean isOdd(MyInteger num){
-		if(num.getValue()%2==0) 
+		if(num.getValue()%2==0)
 			return false;
-		else 
+		else
 			return true;
 	}
 	// Method checks if passed by value is prime
@@ -105,7 +105,7 @@ public class MyInteger {
 	public boolean equals(int num){
 		if(num!=value)
 			return false;
-		else 
+		else
 			return true;
 	}
 
@@ -113,7 +113,7 @@ public class MyInteger {
 	public boolean equals(MyInteger num){
 		if(num.getValue()!=value)
 			return false;
-		else 
+		else
 			return true;
 	}
 

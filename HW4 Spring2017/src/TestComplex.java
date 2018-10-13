@@ -1,12 +1,12 @@
 /*
  * Fanng Dai
- * 109684495
+ * sbuid
  * CSE114
  * Homework #4
  * Part 3: Complex.java class
- * 
+ *
  * Class tests the methods of Complex class.
- * 
+ *
  * https://www.symbolab.com/solver/complex-numbers-calculator/%5Cfrac%7B%5Cleft(2%2B5i%5Cright)%7D%7B%5Cleft(4-3i%5Cright)%7D
  */
 public class TestComplex {

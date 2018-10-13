@@ -1,11 +1,11 @@
 /*
  * Fanng Dai
- * 109684495
+ * sbuid
  * CSE114
  * Temperature converters
  * Homework #2
  * Part 1
- * 
+ *
  * 8 methods that converts
  * fahrenheit to Celsius		C = (F-32.0)*5/9
  * fahrenheit to Kelvin			K = F+459.67*5/9
@@ -15,7 +15,7 @@
  * celsius to Rankine			R = (C+273.15)*9/5
  * kelvin to Fahrenheit			F = K*9/5-459.67
  * kelvin to Celsius			C = K-273.15
- * 
+ *
  * Converts from kelvin or celsius or fahrenheit or Rankine to another temperature.
  */
 
@@ -70,7 +70,7 @@ public class Temperatures {
 
 	/*
 	public static void main(String[] args)
-	{		
+	{
 
 	}
 	*/

@@ -1,10 +1,10 @@
 /*
  * Fanng Dai
- * 109684495
+ * sbuid
  * CSE114 L12
  * Homework #1
  * Part 1
- * 
+ *
  * Prints my full name and my Stony ID number. It will print the weekdays of which I have school.
  * In a graph format, weekday displaying in a column and time displaying in a row, it will fill
  * out the graph with my schedule of Spring 2017 at Stony Brook. Each class will align with the
@@ -17,11 +17,11 @@ public class Schedule
 	{
 		for(int i = 0; i<20; i++)
 		System.out.println(i);
-		
+
 		// Prints First and Last Name
 		System.out.println("Fanng Dai");
 		// Prints Stony ID
-		System.out.println("109684495");
+		System.out.println("sbuid");
 		// Prints the weekdays
 		System.out.println("                    Monday    Tuesday   Wednesday Thursday  Friday ");
 		// Prints Schedule

@@ -3,17 +3,17 @@ import java.util.Scanner;
 
 /*
  * Fanng Dai
- * 109684495
+ * sbuid
  * CSE114
  * UNO!
  * Final Project
  * One out of four classes
- * 
+ *
  * Where everything is executed
- * 
+ *
  * This game consists of 36 total cards of which, there are four colors (red, blue, yellow and green).
  * Each color consists of a number between 1 and 7.
- * 
+ *
  * Both players pick a card. If the card is draw 1 or draw 2 or wild,
  * they have to pick again until it is not the same. If the cards are
  * the same number (1 and 1)
@@ -87,8 +87,8 @@ public class Uno {
 		}while(matchNum==8 || matchNum==9 || matchNum==10);
 		Deck.putInDiscardPile(topCard);
 
-		
-		
+
+
 
 		// while no one wins
 		while(player.cardAmt()!=0 || computer.cardAmt()!=0){
@@ -141,7 +141,7 @@ public class Uno {
 						topCard = player.allCards().get(cardIndex);
 						System.out.println("Choose a color: ");
 						input = stdin.next();
-						while(!(input.equalsIgnoreCase("green") || input.equalsIgnoreCase("yellow") 
+						while(!(input.equalsIgnoreCase("green") || input.equalsIgnoreCase("yellow")
 								|| input.equalsIgnoreCase("red") || input.equalsIgnoreCase("blue"))){
 							System.out.println("Choose a color: ");
 							input = stdin.next();
@@ -152,14 +152,14 @@ public class Uno {
 						matchNum = 10;
 						playerGoesFirst = false;
 					}
-					else if(matchColor.equals(player.allCards().get(cardIndex).getColor()) || 
+					else if(matchColor.equals(player.allCards().get(cardIndex).getColor()) ||
 							matchNum == player.allCards().get(cardIndex).getNumber()){
 						topCard = player.allCards().get(cardIndex);
 						matchColor = topCard.getColor();
 						matchNum = topCard.getNumber();
 						player.playCard(player.allCards().get(cardIndex));
 						playerGoesFirst = false;
-						
+
 						if(matchNum==8 || matchNum ==9){
 							drawCards = false;
 						}
@@ -169,7 +169,7 @@ public class Uno {
 
 				}
 			}
-			
+
 			// If you forget to call uno
 			if(!unoCalled && player.cardAmt()==1)
 			{
@@ -207,9 +207,9 @@ public class Uno {
 
 			// Play card if matches
 			for(int i=0; i<computer.cardAmt(); i++){
-				if(((matchColor.equals(computer.allCards().get(i).getColor()) || 
+				if(((matchColor.equals(computer.allCards().get(i).getColor()) ||
 						matchNum == computer.allCards().get(i).getNumber())
-						&& matchNum != 10) 
+						&& matchNum != 10)
 						&& !playerGoesFirst){
 					topCard = computer.allCards().get(i);
 					matchColor = topCard.getColor();
@@ -217,7 +217,7 @@ public class Uno {
 					computer.playCard(computer.allCards().get(i));
 					playerGoesFirst = true;
 					System.out.println("Opponent played " + topCard);
-					
+
 					if(matchNum==8 || matchNum ==9){
 						drawCards = false;
 					}
@@ -253,7 +253,7 @@ public class Uno {
 					}
 				}
 			}
-			// If no cards are played, 
+			// If no cards are played,
 			if(!playerGoesFirst){
 				computer.drawCard();
 				System.out.println("Opponent drew a card");

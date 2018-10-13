@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 /*
  * Fanng Dai
- * 109684495
+ * sbuid
  * CSE114 - Lab12
  * Homework #5
  */
@@ -13,7 +13,7 @@ public class RecipeBook {
 	public RecipeBook(String bookName){
 		this.bookName = bookName;
 	}
-	
+
 	public void setBookName(String bookName){
 		this.bookName = bookName;
 	}
@@ -116,7 +116,7 @@ public class RecipeBook {
 
 		return crArr;
 	}
-	// returns all cooking recipes from the cooking book that have the lowest number 
+	// returns all cooking recipes from the cooking book that have the lowest number
 	// of calories. Note: this can be multiple recipies.
 	public boolean equals(RecipeBook recipeBook){
 		ArrayList<CookingRecipe> check = recipeBook.getList();

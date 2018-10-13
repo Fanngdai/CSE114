@@ -1,6 +1,6 @@
 /*
  * Fanng Dai
- * 109684495
+ * sbuid
  * CSE114 - Lab12
  * Homework #5
  */
